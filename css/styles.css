@@ -1,0 +1,119 @@
+body {
+	background-color: #FFCAD4;
+}
+
+/*nav bar styling*/
+.navbar {
+	padding: 10px;
+	background: linear-gradient(135deg, #9D8189, #9D8189 20%, #533745);
+	margin: 0;
+}
+
+.navbar li{
+	list-style-type: none;
+	font-family: 'Paprika';
+	text-transform: uppercase;
+	font-size: 20px;
+	text-transform: uppercase;
+	display: inline;
+}
+
+/*home page styling*/
+.container {
+width: 100%;
+}
+
+.image {
+display: flex;
+width: 100%;
+border: 3px solid #533745;
+}
+
+.text {
+  position: absolute;
+  color: #533745;
+  font-size: 40px;
+  font-weight: bold;
+  left: 800px;
+  top: 600px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Paprika';
+}
+
+.text2 {
+  position: absolute;
+  color: #533745;
+  font-size: 30px;
+  font-weight: bold;
+  left: 650px;
+  top: 700px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Paprika';
+}
+
+/*about page styling*/
+
+.me {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+.about h2 {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Paprika';
+	color: #533745;
+}
+
+.about_text {
+	font-family: 'Paprika';
+	font-size: 20px;
+	color: #533745;
+	margin: 5px;
+	padding: 3px;
+}
+
+/*footer styling*/
+footer {
+  font-size: 28px;
+  text-align: center;
+  clear: both;
+  padding-top: 50px; 
+  color: #533745;
+  font-family: 'Paprika';
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
+
+/*Contact page styling*/
+
+.contact li{
+	list-style-type: none;
+	font-family: 'Paprika';
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+}
+
+.contact h2 {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Paprika';
+	color: #533745;
+}
+
+.placeholder {
+	font-family: 'Paprika';
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: center;
+	color: #533745;
+}
