@@ -26,7 +26,7 @@ width: 100%;
 .image {
 display: flex;
 width: 100%;
-border: 3px solid #533745;
+/*border: 3px solid #533745;*/
 }
 
 .text {
@@ -80,17 +80,19 @@ border: 3px solid #533745;
 /*footer styling*/
 footer {
   /*font-size: 10px;*/
-  text-align: center;
-  clear: both;
-  padding-top: 50px; 
+  display: flex;
+  justify-content: center;
+  /*text-align: center;*/
+  /*clear: both;*/
+  padding: 50px; 
   color: #533745;
   font-family: 'Paprika';
 }
 
 .social-icon {
-  width: 40px;
-  height: 40px;
-  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
 }
 
 /*Contact page styling*/
